@@ -1,12 +1,11 @@
-//rust 1.30.0 
-
 fn main() {
   
    let mut y = 420;
     
-   let yr = &y;
-   let walter = &y;
+   let yr = &mut y;
     
-   println!("y is {}", walter);
+    *yr += 1;
+    
+   println!("y is {}", yr);
     
 }
