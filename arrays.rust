@@ -1,0 +1,14 @@
+/* fn main(){
+    let mut number: [i32; 3] = [32, 654, 64];
+    
+    for n in number.iter() {
+        println!("{}", n);
+    }
+} */
+
+fn main(){
+    let mut x = [2++; 400];
+    for n in x.iter() {
+        println!("{}", n);
+    }
+}
